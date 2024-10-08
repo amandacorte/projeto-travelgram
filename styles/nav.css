@@ -8,7 +8,7 @@ nav {
 }
 
 nav ul {
-  font: var(--text);
+  font: 16px/150% var(--font-family);
   list-style: none;
   display: flex;
   align-items: center;

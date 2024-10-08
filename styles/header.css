@@ -1,14 +1,14 @@
 header {
   padding-block: 32px;
-  
-  font: var(--text-md);
+
+  font: 14px/170% var(--font-family);
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font: var(--text-md);
+  font: 14px/170% var(--font-family);
 }
 #profile {
   display: flex;
@@ -19,8 +19,15 @@ header .container {
   max-width: 384px;
 }
 
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 #profile h1 {
-  font: var(--text-lg);
+  font: bold 32px/125% var(--font-family);
   color: var(--text-color-primary);
   margin-bottom: 8px;
 }
